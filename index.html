@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
   <!-- Linkeamos al archivo css -->
   <link rel="stylesheet" href="sass/custom.css">
 </head>
@@ -16,7 +19,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+          <li class="nav-item flex-fill"></li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
           </li>
@@ -24,11 +28,11 @@
             <a class="nav-link" href="#">PRICING</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+            <a class="nav-link" aria-current="page" href="#">CONTACT</a>
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-danger text-white" type="submit">Login</button>
+          <button class="btn btn-danger text-white" type="submit">LOGIN</button>
         </form>
       </div>
     </div>
@@ -37,37 +41,37 @@
     <section class="container">
       <article class="row d-flex justify-content-center flex-row-reverse">
         <div class="primerFondo text-center col-12 col-md-6 col-lg-6">
-          <span class="fondo1 badge rounded-pill bg-primary">
+          <span class="fondo1 badge rounded-pill bg-primary col-10 col-sm-10 col-md-10">
           </span>
           <img class="pt-5" src="Imagenes/illustration-hero.svg" alt="">
         </div>
         <div class="col-12 col-md-6 col-lg-6">
           <div class="text-center col-12">
             <h4 class="pt-5 pb-2 fw-bolder">A Simple Bookmark Manager</h4>
-            <p class="text-center fw-light p-3 pt-2 fs-6">
+            <p class="text-center fw-light p-3 pt-2 fs-6 text-secondary">
               A clean and simple interface to organize your favorites websites. Open a new browser 
               tab and see your sites load instantly. Try it for free
             </p>
           </div>
           <div class="text-center pb-3">
-            <button class="btn btn-primary btn-sm p-2" type="button">
+            <button class="btn btn-primary btn-sm p-2 shadow-sm">
               Get it on Chrome
             </button>
-            <button class="btn btn-secondary btn-sm p-2">
+            <button class="btn btn-light btn-sm p-2 shadow-sm">
               Get it on Firefox
             </button>
           </div>
         </div>
       </article>
       <article class="row justify-content-center pt-5 p-3">
-        <div class="row col-sm-8 col-md-8">
-          <h2 class="fw-bolder text-center">Features</h2>
-          <p class="text-center fw-light fs-6 col-12">
+        <div class="col-sm-8 col-md-8 col-lg-10">
+          <h4 class="fw-bolder text-center">Features</h4>
+          <p class="text-center fw-light fs-6 col-12 text-secondary">
             Our aim to make it quick and easy for you to acces yur favorite websites. Your 
             bookmarks sync between your devices so you can access them on the go.
           </p>
         </div>
-        <div class="container pt-3">
+        <div class="container p-2">
             <ul class="row nav nav-tabs">
               <li class="nav-item text-center col-12 col-lg-4">
                 <a class="nav-link text-dark" href="#">Simple Bookmarking</a>
@@ -75,7 +79,7 @@
               <li class="nav-item text-center col-12 col-lg-4">
                 <a class="nav-link text-dark" href="#">Speedy Searching</a>
               </li>
-              <li class="nav-item text-center col-12 col-lg-4 ">
+              <li class="nav-item text-center col-12 col-lg-4">
                 <a class="nav-link text-dark" href="#">Easy Sharing</a>
               </li>
             </ul>
@@ -88,8 +92,8 @@
           <img class="pt-5" src="Imagenes/illustration-features-tab-1.svg" alt="">
         </div>
         <div class="text-center col-12 col-md-6 col-lg-6 pb-5">
-          <h2 class="pt-3 pb-2 fw-bolder">Bookmark in one click</h2>
-          <p class="text-center fw-light fs-6">
+          <h4 class="pt-5 fw-bolder">Bookmark in one click</h4>
+          <p class="text-center fw-light fs-6 text-secondary">
             Organize your bookmarks however you like. Our simple drag-and-drop interface gives
             you complete drag-and-drop interface gives you complete control over how you manage
             your favorites sites
@@ -99,8 +103,8 @@
       </article>
       <article>
         <div class="text-center col-12">
-          <h2 class="pt-5 pb-2 fw-bolder">Download the extension</h2>
-          <p class="text-center fw-light fs-6 p-3 pt-2">
+          <h4 class="pt-5 pb-2 fw-bolder">Download the extension</h4>
+          <p class="text-center fw-light fs-6 px-5 pt-2 text-secondary">
             We´ve got more browsers in the pipeline. Please do let us know if you´ve 
             got a favourite you´d like us to prioritze
           </p>
@@ -144,8 +148,8 @@
       </article>
       <article>
         <div class="text-center col-12">
-          <h2 class="pt-5 pb-2 fw-bolder">Frequently Asked Questions</h2>
-          <p class="text-center fw-light fs-6 p-3 pt-2">
+          <h4 class="pt-5 pb-2 fw-bolder">Frequently Asked Questions</h4>
+          <p class="text-center fw-light fs-6 px-5 pt-2 text-secondary">
             Here are some of our FAQs. If you have any other questions you'd like answered please
             feel free to email us
           </p>

@@ -1,6 +1,16 @@
-// scss-docs-start theme-color-variables
+//Personalizando el tipo de letra
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+// scss-docs-start theme-color-variables color de texo
 $primary: #5265E1;
 $danger:  #FA5959;
+// scss-docs-start accordion-variables
+$accordion-button-icon:         url("../Imagenes/icon-arrow.svg");
+$accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
+// scss-docs-end accordion-variables
+
+//Personalizando el active de tabs
+
 
 .primerFondo, .segundoFondo, .arrow{
   position: relative;
@@ -33,7 +43,7 @@ $danger:  #FA5959;
   display: none;/*desaparece*/
 }
 /********************** CSS TABLET ****************************************/
-@media(min-width:768px){
+@media(min-width:767px){
   .fondo1{
     bottom:140px;
     right:-60px;
@@ -43,6 +53,7 @@ $danger:  #FA5959;
     left:-120px;
   }
 }
+/********************** CSS PORTATIL ****************************************/
 @media(min-width:992px){
   .fondo1{
     bottom:20px;
@@ -50,6 +61,14 @@ $danger:  #FA5959;
   .fondo2{
     bottom:30px;
   }
+  /*CSS del button  de Bookmark*/
+  #btnBookmark{
+    display: inline;/*desaparece*/
+  }
+  .parrafo{
+    text-align: left;
+  }
 }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
