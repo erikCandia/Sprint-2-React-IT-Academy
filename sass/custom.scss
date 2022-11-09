@@ -9,6 +9,7 @@ $accordion-button-icon:         url("../Imagenes/icon-arrow.svg");
 $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 // scss-docs-end accordion-variables
 
+
 .primerFondo, .segundoFondo, .arrow{
   position: relative;
 }
@@ -32,6 +33,11 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 /*CSS del badge*/
 .primerFondo img, .segundoFondo img{
   width: 90%;
+}
+/*CSS del tab color hover*/
+#myTab a:hover {
+  border-bottom: 5px solid;
+  border-bottom-color: #FA5959;
 }
 /*CSS del button  de Bookmark*/
 #btnBookmark{
@@ -64,6 +70,5 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
     text-align: left;
   }
 }
-
 
 @import "../node_modules/bootstrap/scss/bootstrap";

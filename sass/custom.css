@@ -27,6 +27,12 @@
   width: 90%;
 }
 
+/*CSS del tab color hover*/
+#myTab a:hover {
+  border-bottom: 5px solid;
+  border-bottom-color: #FA5959;
+}
+
 /*CSS del button  de Bookmark*/
 #btnBookmark {
   display: none; /*desaparece*/
