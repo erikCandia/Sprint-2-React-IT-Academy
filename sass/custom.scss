@@ -9,9 +9,6 @@ $accordion-button-icon:         url("../Imagenes/icon-arrow.svg");
 $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 // scss-docs-end accordion-variables
 
-//Personalizando el active de tabs
-
-
 .primerFondo, .segundoFondo, .arrow{
   position: relative;
 }
@@ -20,10 +17,8 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
   position: absolute;
   bottom:10px;
   top:100px;
-  right:0px;
   left:100px;
   z-index:-30;
-  overflow-x: hidden;
 }
 /*CSS del badge de la tercera seccion*/
 .fondo2{

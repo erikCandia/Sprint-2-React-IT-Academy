@@ -8,10 +8,8 @@
   position: absolute;
   bottom: 10px;
   top: 100px;
-  right: 0px;
   left: 100px;
   z-index: -30;
-  overflow-x: hidden;
 }
 
 /*CSS del badge de la tercera seccion*/
