@@ -9,25 +9,25 @@ $accordion-button-icon:         url("../Imagenes/icon-arrow.svg");
 $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 // scss-docs-end accordion-variables
 
-
 .primerFondo, .segundoFondo, .arrow{
   position: relative;
 }
 /*CSS del badge de la primera seccion*/
 .fondo1{
   position: absolute;
+  right: 60px;
   bottom:10px;
   top:100px;
-  left:100px;
+  left:90px;
   z-index:-30;
 }
 /*CSS del badge de la tercera seccion*/
 .fondo2{
   position: absolute;
   bottom:30px;
-  top:130px;
+  top:120px;
   left:-110px;
-  right:100px;
+  right:70px;
   z-index:-30;
 }
 /*CSS del badge*/
@@ -46,8 +46,9 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 /********************** CSS TABLET ****************************************/
 @media(min-width:767px){
   .fondo1{
-    bottom:140px;
-    right:-60px;
+    right:10px;
+    bottom:100px;
+    top:150px;
   }
   .fondo2{
     bottom:80px;
