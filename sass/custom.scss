@@ -15,9 +15,9 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 /*CSS del badge de la primera seccion*/
 .fondo1{
   position: absolute;
-  right: 60px;
+  right: 50px;
   bottom:10px;
-  top:100px;
+  top:130px;
   left:90px;
   z-index:-30;
 }
@@ -34,15 +34,11 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
 .primerFondo img, .segundoFondo img{
   width: 90%;
 }
-/*CSS del tab color hover*/
-#myTab a:hover {
-  border-bottom: 5px solid;
-  border-bottom-color: #FA5959;
-}
 /*CSS del button  de Bookmark*/
 #btnBookmark{
   display: none;/*desaparece*/
 }
+
 /********************** CSS TABLET ****************************************/
 @media(min-width:767px){
   .fondo1{
@@ -70,6 +66,19 @@ $accordion-button-active-icon:  url("../Imagenes/icon-arrow.svg");
   .parrafo{
     text-align: left;
   }
+  /*CSS de las cards*/
+  .card{
+    position: relative;
+  }
+  #card1{
+    position: absolute;
+    top: -40px;
+  }
+  #card2{
+    position: absolute;
+    top:-5px;
+  }
+  
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
